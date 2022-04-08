@@ -1,0 +1,29 @@
+#!/user/bin/env python3
+
+""" Game to determine if your brain is ok from this pandemic """
+# brain meter
+brain = " "
+
+# questions and answers
+# TODO: make dict or list
+q1 = "When you meet somebody new, how do you greet them?"
+q1a = "Hello!"
+q1b = "Goodbye!"
+q1c = "Potato!"
+
+q2 = "A friend has invited you to brunch; how do you respond?"
+q2a = 'Say "Sure", knowing you absolutely will not show up.'
+q2b = 'Say "That will be lovely", then go to brunch.'
+q2c = "Hide in your closet."
+
+q3 = "What kind of pants are you wearing?"
+q3a = "Pajama"
+q3b = "Slacks or Jeans"
+q3c = "None"
+
+# ask questions, each answer associates ok or not ok brain
+q1response = input(f"{q1}\nYour choices are: \nA: {q1a} \nB: {q1b} \nC: {q1c} \nYour Answer ->  "
+q2response = input(f"{q2}\nYour choices are: \nA: {q1a} \nB: {q1b} \nC: {q1c} \nYour Answer ->  "
+q3response = input(f"{q3}\nYour choices are: \nA: {q1a} \nB: {q1b} \nC: {q1c} \nYour Answer ->  "
+
+# average ok's to determine overall
